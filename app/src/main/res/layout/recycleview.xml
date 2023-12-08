@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly_cardview"
+    android:layout_width="368dp"
+    android:layout_height="190dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="10dp">
+
+    <LinearLayout
+        android:id="@+id/ly_data"
+        android:layout_width="186dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/gambarkonten"
+            android:layout_width="186dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/menu_1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/black"
+        android:layout_width="185dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="185dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Judulitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="Ayam Geprek"
+            android:textSize="25sp"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/Harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Rp.100,000"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="@color/yellow"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Promo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:textColor="@color/orange"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:text="Promo 10%" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
